@@ -12,11 +12,12 @@ padding: 15px 60px;
 background-color: ${({ bg }) => bg || '#fff'};
 color: ${({ color }) => color || '#333'};
 transition: transform 0.15s ;
+white-space:nowrap;
 &:hover {
   opacity: 0.9;
   transform: scale(0.98);
-  background: #bffb01
-}
+ }
+ 
 
 
 `
